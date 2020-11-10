@@ -1131,6 +1131,11 @@
   resolved "https://registry.npmjs.org/@vant/icons/-/icons-1.4.0.tgz#a91f7894f2f34356f78a5d6f8b9d4f1a46add0c5"
   integrity sha512-96k+x00FqdGAQeTWrHEJ6C+QNifPQu58W9mv8pJAQ7VQ527KV9GHQT7m2TT+PhHXejDENYhlpW/XWOB66j8r8w==
 
+"@vant/touch-emulator@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@vant/touch-emulator/-/touch-emulator-1.2.0.tgz#486300b23e57db9ce9231a04e0a0c621c68692d8"
+  integrity sha512-sJ97zU85zOq51qoi7+CpBEcOyH3CitjP1KC7/GQwqaurUJni+EP7/F9n0HMnAh8GXMjgtgDBNJ5z48x+coNKYQ==
+
 "@vant/use@^0.0.9":
   version "0.0.9"
   resolved "https://registry.npmjs.org/@vant/use/-/use-0.0.9.tgz#938b41e8dd682f063450f45699111ab30dd279c1"

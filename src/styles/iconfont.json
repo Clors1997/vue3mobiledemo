@@ -1,0 +1,16 @@
+{
+  "id": "2193004",
+  "name": "mypro",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14835598",
+      "name": "左箭头",
+      "font_class": "arrowLeft",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    }
+  ]
+}

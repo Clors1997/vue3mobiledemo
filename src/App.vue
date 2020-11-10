@@ -1,32 +1,33 @@
 <template>
   <div id="app">
-    <div class="bax"></div>
-    <div class="bax"></div>
-    <div class="bax"></div>
-    <div class="bax"></div>
-    <van-button color="linear-gradient(to right, #ff6034, #ee0a24)">
-      渐变色按钮
-    </van-button>
-    <i class="iconfont iconsanjiaoxing2"></i>
+    <router-view />
   </div>
-  <router-view />
-  <footer />
 </template>
 
-<style lang="less">
-.bax {
-  width: 100px;
-  height: 100px;
-  background-color: @border-color;
-}
-footer {
-  width: 100%;
-  height: 60px;
-  padding-bottom: env(safe-area-inset-bottom);
+<script>
+import { nextTick, ref, onMounted } from "vue";
 
-  position: fixed;
-  bottom: 0;
-  background-color: #e90a0a;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+export default {
+  setup() {
+    const left = ref("0px");
+    onMounted(async () => {
+      await nextTick();
+      setTimeout(() => {
+        left.value = "200px";
+      }, 1000);
+    });
+
+    return {
+      left
+    };
+  }
+};
+</script>
+
+<style lang="less">
+#app {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #278ff6;
 }
 </style>

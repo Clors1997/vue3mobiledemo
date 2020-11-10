@@ -1,6 +1,6 @@
-import { Button } from "vant";
+import { Button, Image, Form, Field } from "vant";
 
-const vantCompanies = [Button];
+const vantCompanies = [Button, Image, Form, Field];
 export default {
   install(Vue) {
     vantCompanies.forEach(component => {
